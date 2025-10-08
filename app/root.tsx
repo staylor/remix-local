@@ -6,21 +6,21 @@ import {
   Outlet,
   Scripts,
   ScrollRestoration,
-} from "@remix-run/react";
+} from '@remix-run/react';
 
-import styles from "./css/index.css?url";
+import styles from './css/index.css?url';
 
 export function links() {
   return [
     {
-      rel: "stylesheet",
+      rel: 'stylesheet',
       href: styles,
     },
   ];
 }
 
 export function meta() {
-  return [{ title: "New Remix App" }];
+  return [{ title: 'New Remix App' }];
 }
 
 export default function App() {

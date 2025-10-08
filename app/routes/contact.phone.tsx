@@ -1,8 +1,8 @@
-import { useLoaderData } from "@remix-run/react";
+import { useLoaderData } from '@remix-run/react';
 
-export function loader() {
+export async function loader() {
   return {
-    phone: "(800) 867-5309",
+    phone: '(800) 867-5309',
   };
 }
 
